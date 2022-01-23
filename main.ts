@@ -1252,7 +1252,7 @@ function updateFrogMan () {
     frogman.setImage(frogman_sprites[frogman_pos + got_gold])
     if (frogman_pos == 0) {
         frogman_state = ON_BOAT
-        frogman.setPosition(22, 15)
+        frogman.setPosition(49, 15)
     }
     if (frogman_pos == 1) {
         frogman_state = WALKING
@@ -1316,8 +1316,8 @@ let ON_BOAT = 0
 let game_state = 0
 let GAME_CATCH_ANIMATION = 0
 let GAME_RUN = 0
-init_velocity()
 let GAME_MENU = 0
+init_velocity()
 GAME_RUN = 1
 GAME_CATCH_ANIMATION = 2
 game_state = GAME_RUN
@@ -1332,7 +1332,7 @@ kick_count = 0
 scene.setBackgroundImage(assets.image`background`)
 init_sprites()
 frogman = sprites.create(frogman_sprites[0], SpriteKind.Player)
-frogman.setPosition(22, 15)
+frogman.setPosition(49, 15)
 leg01 = sprites.create(leg01_sprites[0], SpriteKind.Enemy)
 leg01.setPosition(123, 81)
 leg01_dir = 1

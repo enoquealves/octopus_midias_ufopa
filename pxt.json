@@ -2,8 +2,7 @@
     "name": "OctopusMidiasUFOPA",
     "description": "",
     "dependencies": {
-        "device": "*",
-        "edge-connector": "*"
+        "device": "*"
     },
     "files": [
         "main.blocks",
