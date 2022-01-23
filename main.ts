@@ -1316,8 +1316,8 @@ let ON_BOAT = 0
 let game_state = 0
 let GAME_CATCH_ANIMATION = 0
 let GAME_RUN = 0
-let GAME_MENU = 0
 init_velocity()
+let GAME_MENU = 0
 GAME_RUN = 1
 GAME_CATCH_ANIMATION = 2
 game_state = GAME_RUN
