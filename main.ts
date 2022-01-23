@@ -39,7 +39,7 @@ function update_leg01 () {
     leg01.setImage(leg01_sprites[leg01_pos])
 }
 function boatKickOut () {
-    if (kick_count < 20) {
+    if (kick_count < 30) {
         kick_count += 1
     } else {
         kick_count = 0
