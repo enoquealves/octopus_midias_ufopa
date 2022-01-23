@@ -149,6 +149,9 @@ function giveReturnBonus () {
     music.magicWand.play()
     updateFrogMan()
 }
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    game.splash("Jogo em pausa...")
+})
 function doCatchAnimation () {
     if (frame_count < 25) {
         frame_count += 1
@@ -1355,6 +1358,7 @@ leg04_start = 0
 leg04_pos = 0
 leg04_up = false
 info.setLife(3)
+game.splash("Vamos começar?")
 game.onUpdateInterval(100, function () {
     if (game_state == GAME_RUN) {
         check_velocity()
