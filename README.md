@@ -20,7 +20,10 @@ Mergulhe nessa aventura e roube tesouros do polvo, mas muito cuidado com os seus
 * Vídeo de construção do jogo (aguarde)
 
 ### Entre em contato (contact me)
-Prof. Enoque Alves (enoque@gmail.com)
+
+* Universidade Federal do Oeste do Pará
+* Laboratório Mídias Eletrônica
+* Prof. Enoque Alves (enoque@gmail.com)
 
 ## Edit this project ![Build status badge](https://github.com/enoquealves/octopus_midias_ufopa/workflows/MakeCode/badge.svg)
 
