@@ -1358,7 +1358,7 @@ leg04_start = 0
 leg04_pos = 0
 leg04_up = false
 info.setLife(3)
-game.splash("Vamos começar?")
+game.showLongText("Remake Nintendo Octopus, 1981 | Prof. Enoque Alves (2022)", DialogLayout.Bottom)
 game.onUpdateInterval(100, function () {
     if (game_state == GAME_RUN) {
         check_velocity()
